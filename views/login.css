@@ -1,0 +1,61 @@
+body{
+    font-family: SansSerif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.boxform{
+    background-color: gray;
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60%,-50%);
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2), -1px -1px 8px rgba(0,0,0,0);
+}
+.boxform h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.boxform input[type="text"],input[type="number"]{
+    font-size: 15px;
+    color: black;
+    background: white;
+    display: block;
+    margin: 20px    auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 20px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.boxform input[type="text"]:focus,input[type="number"]:focus {
+    width: 250px;
+    border-color: lightgreen;
+
+}
+
+.boxform input[type="submit"]{
+    background: none;
+    display: block;
+    margin: 20px    auto;
+    text-align: center;
+    border: 2px solid lightgreen;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.boxform input[type="submit"]:hover{
+    background-color: lightgreen;
+}
+
+

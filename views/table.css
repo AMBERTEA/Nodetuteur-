@@ -1,0 +1,25 @@
+table{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 200px;
+    border-collapse: collapse;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2), -1px -1px 8px rgba(0,0,0,0);
+}
+
+tr{
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+th,td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+#table{
+    background-color: #011627;
+    color: white;
+}
